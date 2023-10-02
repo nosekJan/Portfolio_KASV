@@ -1,13 +1,24 @@
-import React from "react";
+import {About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works} from './components'
+
 
 function App() {
 
   return (
-    <>
-      <div className="text-center text-5xl">
-          hello
-      </div>
-    </>
+       <div>
+           <div>
+               <Navbar/>
+               <Hero/>
+           </div>
+           <About/>
+           <Experience/>
+           <Tech/>
+           <Works/>
+           <Feedbacks/>
+           <div>
+               <Contact/>
+
+           </div>
+       </div>
   )
 }
 
