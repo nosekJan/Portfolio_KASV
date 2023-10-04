@@ -1,7 +1,8 @@
-import React, {useState, useEffect} from 'react'
+import React, {useEffect, useState} from 'react'
 import {Link} from "react-router-dom";
+import {styles} from "../styles.js";
 import {navLinks} from "../constants/index.js";
-import {menu, logo, close} from '../assets';
+import {logo, menu, close} from '../assets';
 
 const Navbar = () => {
     const [active, setActive] = useState(' ');
@@ -18,10 +19,10 @@ const Navbar = () => {
                         window.scrollTo(0,0);
                     }}
                 >
-                    <img src={logo} alt="logo" className="w-20 h-20 object-contain"/>
-                    <p className="text-white text-[18px] tracking-wide cursor-pointer text-center">Jan Nosek<span className="sm:block hidden">| 3D Portfolio</span></p>
+                    <img src={logo} alt="logo" className="w-20 h-20 object-contain overflow-hidden bg-cover bg-no-repeat"/>
+
                 </Link>
-                <ul className="list-none hidden sm:flex flex-row gap-10">
+                <ul className="list-none hidden sm:flex flex-row gap-4">
                     {navLinks.map((Link) => (
                         <li key={Link.id} className={`${ active === Link.title ? "text-purple" : "text-secondary"}
                  hover:text-purple text-[18px] font-medium cursor-pointer tracking-widest`}
