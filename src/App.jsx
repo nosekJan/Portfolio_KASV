@@ -5,10 +5,13 @@ const  App = () => {
     return (
         <BrowserRouter>
             <div className="relative z-0 bg-black">
-                <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+                <div className="bg-hero-pattern bg-cover min-h-screen">
                     <Navbar/>
                     <Hero/>
-                    <StarsCanvas/>
+                    <div className="">
+                        <StarsCanvas/>
+                    </div>
+
                 </div>
                 <About/>
                 <Experience/>

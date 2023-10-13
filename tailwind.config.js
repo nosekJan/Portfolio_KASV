@@ -11,7 +11,7 @@ module.exports = {
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
-        "purple": "#b10dc9",
+        "purple": "#FF00FF",
       },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
@@ -19,8 +19,12 @@ module.exports = {
       screens: {
         xs: "450px",
       },
+      borderRadius: {
+        fancy: "29% 71% 23% 77% / 46% 44% 56% 54% ",
+      },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.jpg')",
+        "stars" : "url('/src/components/canvas/Stars.jsx')"
       },
     },
   },
