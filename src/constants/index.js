@@ -1,3 +1,8 @@
+import {
+    web,
+    mobile
+} from "../assets";
+
 export const navLinks = [
     {
         id: "about",
@@ -16,3 +21,14 @@ export const navLinks = [
         title: "Contact",
     },
 ];
+const services = [
+    {
+        title: "Web Developer",
+        icon: web,
+    },
+    {
+        title: "Figma Designer",
+        icon: mobile,
+    },
+];
+export {services};

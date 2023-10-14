@@ -23,7 +23,6 @@ module.exports = {
         fancy: "29% 71% 23% 77% / 46% 44% 56% 54% ",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.jpg')",
         "stars" : "url('/src/components/canvas/Stars.jsx')"
       },
     },
