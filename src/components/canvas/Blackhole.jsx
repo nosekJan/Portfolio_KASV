@@ -11,14 +11,13 @@ const Blackhole = ({isMobile}) => {
     console.log(blackhole);
     return (
         <mesh>
-            <hemisphereLight intensity={0.7} groundColor="black" />
-            <pointLight intensity={2} />
             <primitive
                 object={blackhole.scene}
-                scale={isMobile ? 3 : 3}
-                position={isMobile ? [0, -4, 0] : [0, -4.3, -1]}
+                scale={isMobile ? 1 : 2}
+                position={isMobile ? [0.1, -1.5, 0.1] : [0.1, -2.5, 0.1]}
                 rotation={[0, 0.1, 0]}
             />
+
         </mesh>
     );
 };
@@ -46,12 +45,13 @@ const BlackholeCanvas = () => {
             frameloop="demand"
             shadows
             camera={{
-                position: [20, 3, 5 ],
+                position: [20, 3, 5],
                 fov: 25,
             }}
             gl={{ preserveDrawingBuffer: true }}>
             <Suspense fallback={<CanvasLoader />}>
                 <OrbitControls
+                    autoRotate
                     enableZoom={false}
                     maxPolarAngle={Math.PI / 2}
                     minPolarAngle={Math.PI / 2}
