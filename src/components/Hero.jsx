@@ -17,7 +17,7 @@ const Hero = () => {
 
                 </div>
                 <div className="mt-16 w-[300px] h-[300px]">
-                    <img alt="#" src="/src/assets/portrait_purple.png" id={"animated-blob"}/>
+                    <img alt="#" src="/src/assets/portrait_purple_bg.png" id={"animated-blob"}/>
                 </div>
             </div>
 
