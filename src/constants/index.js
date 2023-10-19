@@ -3,6 +3,16 @@ import {
     blackhole,
     blackhole_exp,
     galaxy_exp,
+    css,
+    figma,
+    git,
+    html,
+    javascript,
+    mongodb,
+    reactjs,
+    mysql,
+    threejs,
+    tailwind,
 } from "../assets";
 
 export const navLinks = [
@@ -63,7 +73,49 @@ const experiences = [
         ],
     },
 ];
+const technologies = [
+    {
+        name: "HTML 5",
+        icon: html,
+    },
+    {
+        name: "CSS 3",
+        icon: css,
+    },
+    {
+        name: "JavaScript",
+        icon: javascript,
+    },
+    {
+        name: "React JS",
+        icon: reactjs,
+    },
+    {
+        name: "Tailwind CSS",
+        icon: tailwind,
+    },
+    {
+        name: "MySQL",
+        icon: mysql,
+    },
+    {
+        name: "MongoDB",
+        icon: mongodb,
+    },
+    {
+        name: "Three JS",
+        icon: threejs,
+    },
+    {
+        name: "git",
+        icon: git,
+    },
+    {
+        name: "figma",
+        icon: figma,
+    },
+];
 
 
-export {services, experiences};
+export {services, experiences, technologies};
 

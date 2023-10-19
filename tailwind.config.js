@@ -14,7 +14,7 @@ module.exports = {
         "purple": "#FF00FF",
       },
       boxShadow: {
-        capy: "0px 35px 120px -15px #211e35",
+        capy: "0px 35px 120px -15px #FF00FF",
       },
       screens: {
         xs: "450px",

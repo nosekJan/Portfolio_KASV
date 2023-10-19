@@ -21,12 +21,12 @@ const ExperienceCard = ({ experience }) => {
             }}
             contentArrowStyle={{ borderRight: "10px solid  #FF00FF" }}
             date={experience.date}
-            iconStyle={{ background: experience.iconBg }}
+            iconStyle={{ background: experience.iconBg, }}
             icon={
                 <div className='flex justify-center items-center w-full h-full'>
                     <img
                         src={experience.icon}
-                        alt={experience.company_name}
+                        alt={experience.company_xname}
                         className='object-contain'
                     />
                 </div>
@@ -69,7 +69,7 @@ const Experience = () => {
             </motion.div>
 
             <div className='mt-20 flex flex-col'>
-                <VerticalTimeline>
+                <VerticalTimeline lineColor='#FF00FF' >
                     {experiences.map((experience, index) => (
                         <ExperienceCard
                             key={`experience-${index}`}
