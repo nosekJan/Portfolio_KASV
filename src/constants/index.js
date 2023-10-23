@@ -13,6 +13,12 @@ import {
     mysql,
     threejs,
     tailwind,
+    emo,
+    samo,
+    matus,
+    planetemo,
+    planetsamo,
+    planetmatus,
 } from "../assets";
 
 export const navLinks = [
@@ -115,7 +121,38 @@ const technologies = [
         icon: figma,
     },
 ];
+const testimonials = [
+    {
+        avatar: planetemo,
+        testimonial:
+            "Jan is a highly diligent individual, who attends all meetings on time, and can create designs that fit perfectly into the modern style, " +
+            "all within a relatively short period. In my opinion, he belongs to the contemporary group of people and has the ability to captivate " +
+            "the majority at first sight.",
+        name: "Emo",
+        role: "Student",
+        school: "Košice Academy of Software Development",
+        image: emo,
+    },
+    {
+        avatar: planetsamo,
+        testimonial:
+            "Jano's passion for design and innate sense of style shine through in every project, leaving a lasting impression on everyone he collaborates with.",
+        name: "Samo",
+        role: "Student",
+        school: "Košice Academy of Software Development",
+        image: samo,
+    },
+    {
+        avatar: planetmatus,
+        testimonial:
+            "Jan's contagious humor, empathy, and ability to thrive under deadlines make collaborating with them an absolute delight!",
+        name: "Matus",
+        role: "Student",
+        school: "Košice Academy of Software Development",
+        image: matus,
+    },
+];
 
 
-export {services, experiences, technologies, };
+export {services, experiences, technologies, testimonials, };
 

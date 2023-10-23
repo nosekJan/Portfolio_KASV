@@ -23,6 +23,14 @@ import mysql from "./tech/mysql.png";
 import threejs from "./tech/threejs.svg";
 import tailwind from "./tech/tailwind.png";
 
+/*testimonials*/
+import emo from "./emo.jpg";
+import samo from "./samo.jpg";
+import matus from "./matus.jpg";
+import planetemo from "./planetemo.png";
+import planetsamo from "./planetsamo.png";
+import planetmatus from "./planetmatus.png";
+
 
 export{
     logo,
@@ -42,4 +50,10 @@ export{
     mysql,
     threejs,
     tailwind,
+    emo,
+    samo,
+    matus,
+    planetemo,
+    planetsamo,
+    planetmatus,
 }
