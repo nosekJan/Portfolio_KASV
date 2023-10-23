@@ -117,5 +117,5 @@ const technologies = [
 ];
 
 
-export {services, experiences, technologies};
+export {services, experiences, technologies, };
 
