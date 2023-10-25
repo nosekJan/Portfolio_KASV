@@ -14,7 +14,6 @@ const Hero = () => {
                     <p className={`${styles.heroSubText} mt-2 text-white tracking-widest`}>
                         I'm a student at KASV and <br className="sm:block hidden"/> this is my first 3D portfolio.
                     </p>
-
                 </div>
                 <div className="mt-16 w-[300px] h-[300px]">
                     <img alt="#" src="/src/assets/portrait_purple_bg.png" id={"animated-blob"}/>
@@ -22,7 +21,6 @@ const Hero = () => {
             </div>
 
             <BlackholeCanvas/>
-
 
             <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
                 <a href="#about">
@@ -40,7 +38,6 @@ const Hero = () => {
                         />
                     </div>
                 </a>
-
             </div>
         </section>
     )

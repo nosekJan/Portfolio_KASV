@@ -145,7 +145,8 @@ const testimonials = [
     {
         avatar: planetmatus,
         testimonial:
-            "Jan's contagious humor, empathy, and ability to thrive under deadlines make collaborating with them an absolute delight!",
+            "Jano is an exceptionally funny and friendly person, recognized for bringing a contagious sense of humor to every interaction. " +
+            "His warm and approachable nature makes him a beloved presence in any professional environment.",
         name: "Matus",
         role: "Student",
         school: "Košice Academy of Software Development",
