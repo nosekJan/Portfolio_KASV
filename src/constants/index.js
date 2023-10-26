@@ -153,7 +153,30 @@ const testimonials = [
         image: matus,
     },
 ];
+const projects = [
+    {
+        name: "project name",
+        description:
+            "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        tags: [
+            {
+                name: "name",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "name",
+                color: "green-text-gradient",
+            },
+            {
+                name: "name",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: img,
+        /*source_code_link: "https://github.com/",*/
+    },
+];
 
 
-export {services, experiences, technologies, testimonials, };
+export {services, experiences, technologies, testimonials, projects};
 
