@@ -18,7 +18,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
                     scale: 1,
                     speed: 450,
                     }}
-                className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+                className="backdrop-blur-sm backdrop-filter shadow-capy p-5 rounded-2xl sm:w-[360px] w-full"
             >
                 <div className="relative w-full h-[230px]">
                     <img
@@ -29,7 +29,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
                     <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
                         <div
                             onClick={() => window.open(source_code_link,"_blank")}
-                            className="black-gradient flex justify-center items-center cursor-pointer"
+                            className="flex justify-end cursor-pointer"
                         >
                             <img
                                 src={figma}
@@ -45,7 +45,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
                 </div>
                 <div className="mt-4 flex flex-wrap gap-2">
                     {tags.map((tag) => (
-                        <p key={tag.name} className={`text-[14px] ${tag.color}`}>
+                        <p key={tag.name} className={`text-[17px] text-purple`}>
                             #{tag.name}
                         </p>
                     ))}
@@ -60,19 +60,21 @@ function Works() {
        <>
            <motion.div variants={textVariant()}>
                <p className={`${styles.sectionSubText} text-center`}>
-                   My recent works.
+                   My recent works
                </p>
                <h2 className={`${styles.sectionHeadText} text-center`}>
                    Projects.
                </h2>
            </motion.div>
 
-           <div className="w-full flex">
+           <div className="text-center">
                <motion.p
                    variants={fadeIn("", "", 0.1, 1)}
-                   className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+                   className="mt-3 text-secondary text-[17px] leading-[30px] max-w-3xl mx-auto"
                >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   The projects below demonstrate my skills and experience through examples of my work.
+                   Each project is briefly described with links to the Figma files.
+                   They showcase my ability to design and work effectively in this design platform.
                </motion.p>
            </div>
 

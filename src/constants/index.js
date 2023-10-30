@@ -19,6 +19,7 @@ import {
     planetemo,
     planetsamo,
     planetmatus,
+    krby_liptov,
 } from "../assets";
 
 export const navLinks = [
@@ -155,25 +156,17 @@ const testimonials = [
 ];
 const projects = [
     {
-        name: "project name",
+        name: "Krby Liptov",
         description:
-            "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "A proposal for redesigning the website of Krby Liptov company, where customers can choose a product based on their needs," +
+            " view a gallery of completed products, and place orders for services or products through an order form.",
         tags: [
             {
-                name: "name",
-                color: "blue-text-gradient",
-            },
-            {
-                name: "name",
-                color: "green-text-gradient",
-            },
-            {
-                name: "name",
-                color: "pink-text-gradient",
+                name: "figma",
             },
         ],
-        image: "git",
-        source_code_link: "https://github.com/",
+        image: krby_liptov,
+        source_code_link: "https://www.figma.com/file/wVAg6vecL2rnoU15sWGeA6/KRBY-LIPTOV?type=design&node-id=1004%3A3&mode=design&t=ZvhN1ldHPw6axjIJ-1",
     },
 ];
 

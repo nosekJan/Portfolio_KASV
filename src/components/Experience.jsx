@@ -26,7 +26,7 @@ const ExperienceCard = ({ experience }) => {
                 <div className='flex justify-center items-center w-full h-full'>
                     <img
                         src={experience.icon}
-                        alt={experience.company_xname}
+                        alt={experience.company_name}
                         className='object-contain'
                     />
                 </div>
