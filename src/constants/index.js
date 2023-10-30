@@ -153,7 +153,7 @@ const testimonials = [
         image: matus,
     },
 ];
-const projects = [
+/*const projects = [
     {
         name: "project name",
         description:
@@ -172,11 +172,11 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: img,
-        /*source_code_link: "https://github.com/",*/
+        image: "emo",
+        /!*source_code_link: "https://github.com/",*!/
     },
-];
+];*/
 
 
-export {services, experiences, technologies, testimonials, projects};
+export {services, experiences, technologies, testimonials, /*projects*/};
 
