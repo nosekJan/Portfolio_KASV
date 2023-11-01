@@ -18,7 +18,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
                     scale: 1,
                     speed: 450,
                     }}
-                className="backdrop-blur-sm backdrop-filter shadow-capy p-5 rounded-2xl sm:w-[360px] w-full"
+                className="backdrop-blur-sm backdrop-filter shadow-capy p-5 rounded-2xl sm:w-[360px] w-full font-font"
             >
                 <div className="relative w-full h-[230px]">
                     <img

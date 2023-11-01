@@ -6,7 +6,7 @@ import {testimonials} from "../constants/index.js";
 
 const FeedbackCard = ({index, testimonial, name, role, school, image, avatar}) => (
     <motion.div variants={fadeIn("", "spring", index * 0.5, 0.75)}
-                className="shadow-capy backdrop-blur-sm backdrop-filter p-10 rounded-3xl xs:w-[320px] w-full"
+                className="shadow-capy backdrop-blur-sm backdrop-filter p-10 rounded-3xl xs:w-[320px] w-full font-font"
         >
         <img
             src={avatar}

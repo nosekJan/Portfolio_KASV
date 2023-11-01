@@ -20,7 +20,7 @@ const ServiceCard = ({index, title, icon}) => {
                      className=" rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
                 >
                     <img src={icon} alt={title} className="w-16 h-16 object-contain"/>
-                    <h3 className="text-purple text-[20px] font-bold tracking-widest text-center">{title}</h3>
+                    <h3 className="text-purple text-[20px] font-font tracking-widest text-center">{title}</h3>
                 </div>
             </motion.div>
         </Tilt>
@@ -34,7 +34,7 @@ const About = () => {
                 <h2 className={styles.sectionHeadText}>Overview.</h2>
             </motion.div>
             <motion.p variants={fadeIn("","",0.1, 1)}
-                          className="mt-4 text-secondary text-[17px] sm:max-w-full sm:pl-[300px] leading-[30px] tracking-widest text-right"
+                          className="mt-4 text-secondary text-[17px] sm:max-w-full sm:pl-[300px] leading-[30px] tracking-widest text-right font-font"
             >
                 Hey there! I'm a second-grade student at KASV with a passion for creating webpages through design,
                 styling, and UI/UX. I'm currently learning JavaScript, React, Three.js,
@@ -43,7 +43,7 @@ const About = () => {
                 Excited to make a mark in the digital world! 🚀
             </motion.p>
 
-            <div className="mt-20 flex flex-wrap gap-10 justify-center">
+            <div className="mt-20 flex flex-wrap gap-10 justify-center ">
                 {services.map((service, index) => (
                     <ServiceCard key = {service.title} index = {index} {...service}/>
                 ))}

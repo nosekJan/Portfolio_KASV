@@ -13,6 +13,9 @@ module.exports = {
         "white-100": "#f3f3f3",
         "purple": "#FF00FF",
       },
+      fontFamily: {
+        'font': ['Lilita One', 'sans-serif'],
+      },
       boxShadow: {
         capy: "0px 20px 80px -15px #FF00FF",
       },

@@ -56,7 +56,7 @@ const Contact = () => {
     const [loading, setLoading] = useState(false);
 
     return (
-        <div className=" xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
+        <div className=" xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden font-font">
             <motion.div
                 variants={slideIn('left', "tween", 0.2, 1)}
                 className="flex-[0.75] backdrop-blur-sm backdrop-filter p-8 rounded-2xl"

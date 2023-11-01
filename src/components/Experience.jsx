@@ -68,7 +68,7 @@ const Experience = () => {
                 </h2>
             </motion.div>
 
-            <div className='mt-20 flex flex-col'>
+            <div className='mt-20 flex flex-col font-font'>
                 <VerticalTimeline lineColor='#FF00FF' >
                     {experiences.map((experience, index) => (
                         <ExperienceCard

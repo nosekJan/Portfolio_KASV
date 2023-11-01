@@ -137,7 +137,8 @@ const testimonials = [
     {
         avatar: planetsamo,
         testimonial:
-            "Jano's passion for design and innate sense of style shine through in every project, leaving a lasting impression on everyone he collaborates with.",
+            "Jan is a great web developer and designer! His creative skills and attention to detail shine in every project. " +
+            "Working with him is not just productive but also enjoyable. He's the go-to person for turning ideas into stunning websites. Highly recommended!",
         name: "Samo",
         role: "Student",
         school: "Košice Academy of Software Development",
