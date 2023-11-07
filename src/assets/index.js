@@ -1,5 +1,6 @@
 /*navbar*/
-import logo from "./logo.svg";
+import logo from "./logo.png";
+import logo3 from "./logo3.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -36,6 +37,7 @@ import krby_liptov from "./krby_liptov.png";
 
 export{
     logo,
+    logo3,
     menu,
     close,
     blackhole,
