@@ -19,7 +19,9 @@ import {
     planetemo,
     planetsamo,
     planetmatus,
-    krby_liptov,
+    krby_liptov_mockup,
+    g,
+
 } from "../assets";
 
 export const navLinks = [
@@ -157,7 +159,7 @@ const testimonials = [
 ];
 const projects = [
     {
-        name: "Krby Liptov",
+        name: "Kroby Liptov",
         description:
             "A proposal for redesigning the website of Krby Liptov company, where customers can choose a product based on their needs," +
             " view a gallery of completed products, and place orders for services or products through an order form.",
@@ -166,7 +168,31 @@ const projects = [
                 name: "figma",
             },
         ],
-        image: krby_liptov,
+        image: krby_liptov_mockup,
+        source_code_link: "https://www.figma.com/file/wVAg6vecL2rnoU15sWGeA6/KRBY-LIPTOV?type=design&node-id=1004%3A3&mode=design&t=ZvhN1ldHPw6axjIJ-1",
+    },
+    {
+        name: "Project2",
+        description:
+            "Description of project2",
+        tags: [
+            {
+                name: "technology",
+            },
+        ],
+        image: g,
+        source_code_link: "https://www.figma.com/file/wVAg6vecL2rnoU15sWGeA6/KRBY-LIPTOV?type=design&node-id=1004%3A3&mode=design&t=ZvhN1ldHPw6axjIJ-1",
+    },
+    {
+        name: "project3",
+        description:
+            "Description of project3",
+        tags: [
+            {
+                name: "technology",
+            },
+        ],
+        image: krby_liptov_mockup,
         source_code_link: "https://www.figma.com/file/wVAg6vecL2rnoU15sWGeA6/KRBY-LIPTOV?type=design&node-id=1004%3A3&mode=design&t=ZvhN1ldHPw6axjIJ-1",
     },
 ];

@@ -33,7 +33,8 @@ import planetsamo from "./planetsamo.png";
 import planetmatus from "./planetmatus.png";
 
 /*works*/
-import krby_liptov from "./krby_liptov.png";
+import krby_liptov_mockup from "./krby_liptov_mockup.png";
+import g from "./g.jpg";
 
 export{
     logo,
@@ -60,5 +61,6 @@ export{
     planetemo,
     planetsamo,
     planetmatus,
-    krby_liptov,
+    krby_liptov_mockup,
+    g,
 }

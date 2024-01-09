@@ -29,7 +29,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
                     <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
                         <div
                             onClick={() => window.open(source_code_link,"_blank")}
-                            className="flex justify-end cursor-pointer"
+                            className="flex justify-end"
                         >
                             <img
                                 src={figma}

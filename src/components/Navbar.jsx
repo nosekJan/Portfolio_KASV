@@ -26,7 +26,7 @@ const Navbar = () => {
                 <ul className="list-none hidden sm:flex flex-row gap-4">
                     {navLinks.map((Link) => (
                         <li key={Link.id} className={`${ active === Link.title ? "text-purple" : "text-secondary"}
-                            hover:text-purple text-[18px] font-medium cursor-pointer tracking-widest`}
+                            hover:text-purple text-[18px] font-medium tracking-widest`}
                             onClick={() => setActive(Link.title)}
                         >
                             <a href={`#${Link.id}`}>{Link.title}</a>
@@ -41,7 +41,7 @@ const Navbar = () => {
                         <ul className="list-none flex justify-end items-start flex-col gap-4">
                             {navLinks.map((Link) => (
                                 <li key={Link.id} className={`${ active === Link.title ? "text-purple" : "text-secondary"}
-                                    font-poppins font-medium cursor-pointer text-[16px] tracking-widest`}
+                                    font-poppins font-medium text-[16px] tracking-widest`}
                                     onClick={() => {
                                         setToggle(!toggle);
                                         setActive(Link.title);
