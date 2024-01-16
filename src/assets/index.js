@@ -38,6 +38,7 @@ import planetmatus from "./planetmatus.png";
 /*works*/
 import krby_liptov_mockup from "./krby_liptov_mockup.png";
 import to_do_list_mockup from "./to_do_list_mockup.png";
+import financial_dashboard_mockup from "./financial_dashboard_mockup.png";
 
 export{
     logo,
@@ -64,9 +65,10 @@ export{
     planetemo,
     planetsamo,
     planetmatus,
-    krby_liptov_mockup,
     angular,
     typescript,
     java,
+    krby_liptov_mockup,
     to_do_list_mockup,
+    financial_dashboard_mockup,
 }

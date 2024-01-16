@@ -24,6 +24,7 @@ import {
     typescript,
     java,
     to_do_list_mockup,
+    financial_dashboard_mockup,
 
 } from "../assets";
 
@@ -179,7 +180,7 @@ const testimonials = [
 ];
 const projects = [
     {
-        name: "Kroby Liptov",
+        name: "Krby Liptov",
         description:
             "A proposal for redesigning the website of Krby Liptov company, where customers can choose a product based on their needs," +
             " view a gallery of completed products, and place orders for services or products through an order form.",
@@ -205,15 +206,16 @@ const projects = [
         source_code_link: "https://www.figma.com/file/WAimG2JgtXyeloyFpw73gI/Material-3-Design-Kit-(Community)?type=design&node-id=54722-24862&mode=design&t=oU3qLYYjItp7dFGz-0",
     },
     {
-        name: "project3",
+        name: "Financial Dashboard",
         description:
-            "Description of project3",
+            "Transform your financial experience with this Figma-designed dashboard. This intuitive interface delivers a user-friendly platform to effortlessly track investments," +
+            " monitor expenses, and make informed financial decisions.\n",
         tags: [
             {
-                name: "technology",
+                name: "figma",
             },
         ],
-        image: krby_liptov_mockup,
+        image: financial_dashboard_mockup,
         source_code_link: "https://www.figma.com/file/wVAg6vecL2rnoU15sWGeA6/KRBY-LIPTOV?type=design&node-id=1004%3A3&mode=design&t=ZvhN1ldHPw6axjIJ-1",
     },
 ];
