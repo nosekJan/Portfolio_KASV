@@ -1,3 +1,4 @@
+/*
 import React from 'react'
 import AnimatedCursor from "react-animated-cursor";
 
@@ -28,3 +29,4 @@ function AnimCursor() {
 }
 
 export default AnimCursor
+*/
