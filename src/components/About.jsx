@@ -37,8 +37,8 @@ const About = () => {
                           className="mt-4 text-secondary text-[17px] sm:max-w-full sm:pl-[300px] leading-[30px] tracking-widest text-right font-font"
             >
                 Hey there! I'm a second-grade student at KASV with a passion for creating webpages through design,
-                styling, and UI/UX. I'm currently learning JavaScript, React, Three.js,
-                and partly Figma to become a skilled frontend developer and designer.
+                styling, and UI/UX. I'm currently learning React, Angular
+                and Figma to become a skilled frontend developer and designer.
                 Also my dream is to design captivating games in the future.
                 Excited to make a mark in the digital world! 🚀
             </motion.p>

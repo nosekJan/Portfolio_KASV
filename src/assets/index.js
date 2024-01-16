@@ -23,6 +23,9 @@ import reactjs from "./tech/reactjs.png";
 import mysql from "./tech/mysql.png";
 import threejs from "./tech/threejs.svg";
 import tailwind from "./tech/tailwind.png";
+import angular from "./tech/angular.png";
+import typescript from "./tech/typescript.png";
+import java from "./tech/java.png";
 
 /*testimonials*/
 import emo from "./emo.jpg";
@@ -34,7 +37,7 @@ import planetmatus from "./planetmatus.png";
 
 /*works*/
 import krby_liptov_mockup from "./krby_liptov_mockup.png";
-import g from "./g.jpg";
+import to_do_list_mockup from "./to_do_list_mockup.png";
 
 export{
     logo,
@@ -62,5 +65,8 @@ export{
     planetsamo,
     planetmatus,
     krby_liptov_mockup,
-    g,
+    angular,
+    typescript,
+    java,
+    to_do_list_mockup,
 }

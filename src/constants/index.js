@@ -20,7 +20,10 @@ import {
     planetsamo,
     planetmatus,
     krby_liptov_mockup,
-    g,
+    angular,
+    typescript,
+    java,
+    to_do_list_mockup,
 
 } from "../assets";
 
@@ -78,7 +81,12 @@ const experiences = [
         iconBg: "background-transparent",
         date: "September 2023 - Present",
         points: [
-            "Coming soon ☺♥♥♥♥♥",
+            "During the second year, I expanded my programming knowledge in Java and simultaneously focused on completing various assignments.",
+            "I devoted myself intensively to working on my 3D web portfolio, where I combined my skills in design and programming to visualize 3D components directly on my website.",
+            "Over time, I acquired advanced skills in the Figma tool and utilized them to create sophisticated designs for web applications.",
+            "During my studies, I acquainted myself with TypeScript, thereby expanding my programming knowledge.",
+            "I learned to work effectively with Material Design 3, enabling me to create modern and user-friendly interfaces with stylistic consistency.",
+            "I collaborated on a school project in Angular, where we used Tailwind CSS for efficient style management.",
         ],
     },
 ];
@@ -96,12 +104,24 @@ const technologies = [
         icon: javascript,
     },
     {
+        name: "TypeScript",
+        icon: typescript,
+    },
+    {
         name: "React JS",
         icon: reactjs,
     },
     {
+        name: "Angular",
+        icon: angular,
+    },
+    {
         name: "Tailwind CSS",
         icon: tailwind,
+    },
+    {
+        name: "Java",
+        icon: java,
     },
     {
         name: "MySQL",
@@ -172,16 +192,17 @@ const projects = [
         source_code_link: "https://www.figma.com/file/wVAg6vecL2rnoU15sWGeA6/KRBY-LIPTOV?type=design&node-id=1004%3A3&mode=design&t=ZvhN1ldHPw6axjIJ-1",
     },
     {
-        name: "Project2",
+        name: "To Do List",
         description:
-            "Description of project2",
+            "This to-do list is a minimalist and intuitive application designed with Material Design 3 principles, " +
+            "providing users with a seamless and visually pleasing task management experience.",
         tags: [
             {
-                name: "technology",
+                name: "figma",
             },
         ],
-        image: g,
-        source_code_link: "https://www.figma.com/file/wVAg6vecL2rnoU15sWGeA6/KRBY-LIPTOV?type=design&node-id=1004%3A3&mode=design&t=ZvhN1ldHPw6axjIJ-1",
+        image: to_do_list_mockup,
+        source_code_link: "https://www.figma.com/file/WAimG2JgtXyeloyFpw73gI/Material-3-Design-Kit-(Community)?type=design&node-id=54722-24862&mode=design&t=oU3qLYYjItp7dFGz-0",
     },
     {
         name: "project3",
