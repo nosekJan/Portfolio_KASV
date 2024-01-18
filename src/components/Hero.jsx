@@ -1,6 +1,7 @@
 import {motion} from "framer-motion";
 import {styles} from "../styles.js";
 import {BlackholeCanvas} from "./canvas/index.js";
+import {portrait_purple_bg} from "../assets/index.js";
 
 
 const Hero = () => {
@@ -16,7 +17,7 @@ const Hero = () => {
                     </p>
                 </div>
                 <div className="mt-16 w-[300px] h-[300px]">
-                    <img alt="#" src="/assets/portrait_purple_bg.png" id={"animated-blob"}/>
+                    <img alt="#" src={portrait_purple_bg} id={"animated-blob"}/>
                 </div>
             </div>
 

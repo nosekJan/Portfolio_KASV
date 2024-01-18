@@ -7,6 +7,7 @@ import close from "./close.svg";
 /*about*/
 import nebula from './nebula.png';
 import blackhole from './blackhole.png';
+import portrait_purple_bg from './portrait_purple_bg.png';
 
 /*experiences*/
 import blackhole_exp from '/src/assets/school/blackhole_exp.png';
@@ -71,4 +72,5 @@ export{
     krby_liptov_mockup,
     to_do_list_mockup,
     financial_dashboard_mockup,
+    portrait_purple_bg,
 }
